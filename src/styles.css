@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgba(80, 80, 226, 0.815);
+}
