@@ -1,0 +1,2 @@
+document.querySelector("ul");const e=document.querySelectorAll("input");e.forEach(t=>{t.addEventListener("input",()=>{let t=JSON.stringify({task1:e[0].checked,task2:e[1].checked,task3:e[2].checked});localStorage.setItem("userList",t)})}),function(){let t=localStorage.getItem("userList");if(t){let c=JSON.parse(t);e[0].checked=c?.task1||!1,e[1].checked=c?.task2||!1,e[2].checked=c?.task3||!1}}();
+//# sourceMappingURL=index1.e79a3184.js.map
